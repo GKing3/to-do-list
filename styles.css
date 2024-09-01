@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: rgb(25, 25, 25);
+    color: #fff; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.wrapper,
+.todo-list p {
+    display: grid;
+    grid-template-columns: 200px 150px 100px 100px;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-input {
+    font-size: .9rem;
+    padding: 8px;
+    outline: none;
+}
+
+.date-input {
+    padding: 8px;
+}
+
+.time-input {
+    padding: 7px;
+}
+
+.add-btn {
+    font-size: .9rem;
+    padding: 10px 15px;
+    background-color: springgreen;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: crimson;
+    border: none;
+    padding: 10px 15px;
+    font-size: .9rem;
+    color: #fff;
+    cursor: pointer;
+}
