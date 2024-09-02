@@ -63,3 +63,10 @@ h1 {
     color: #fff;
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+    .wrapper,
+    .todo-list p {
+        grid-template-columns: 200px 90px 60px 70px;
+    }
+}
